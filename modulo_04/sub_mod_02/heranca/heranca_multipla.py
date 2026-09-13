@@ -1,46 +1,62 @@
+from dataclasses import dataclass
+
+
+@dataclass(kw_only=True)
 class Animal:
-    def __init__(self, numero_patas):
-        self.numero_patas = numero_patas
+    """Classe base representativa de animais.
 
-    def __str__(self):
-        return f"{self.__class__.__name__}: {', '.join([f'{k}: {v}' for k, v in self.__dict__.items()])}"
+    Define atributos fisicos fundamentais e o formato de exibicao em string.
+    """
+
+    numero_patas: int
+
+    def __str__(self) -> str:
+        atributos = ", ".join([f"{k}: {v}" for k, v in self.__dict__.items()])
+        return f"{self.__class__.__name__}: {atributos}"
 
 
-# Ao  ter um cenário com heranca multipla:
-# - Para que seja atendido o repasse de argumentos, para super classes(pai) sem a necessidade de ter quer incluir individualmente
-# e eventualmente cada novo argumento da super classe no construtor da classe derivada (filha) o  uso de **kwargs (dict)
-# se faz como o melhor "artificio"/tecnica; Tendo como trade-ff  apenas que todo consumidor desta hierarquia de classes,
-# realize a criacao de instancia  usando a tecnica de argumentos nomeados
+@dataclass(kw_only=True)
 class Mamifero(Animal):
-    def __init__(self, cor_pelo, **kwargs):
-        super().__init__(**kwargs)
-        self.cor_pelo = cor_pelo
+    cor_pelo: str
 
 
+@dataclass(kw_only=True)
 class Ave(Animal):
-    def __init__(self, cor_bico, **kwargs):
-        self.cor_bico = cor_bico
-        super().__init__(**kwargs)
+    cor_bico: str
 
 
+@dataclass(kw_only=True)
 class Cachorro(Mamifero):
     pass
 
 
+@dataclass(kw_only=True)
 class Gato(Mamifero):
     pass
 
 
+@dataclass(kw_only=True)
 class Leao(Mamifero):
     pass
 
 
-class Ornitorrinco(Mamifero, Ave): ...
+@dataclass(kw_only=True)
+class Ornitorrinco(Mamifero, Ave):
+    """Representa a entidade Ornitorrinco (Heranca Multipla de Mamifero e Ave).
+
+    Nota de Arquitetura:
+    O uso do decorator @dataclass(kw_only=True) inspeciona recursivamente a hierarquia
+    de classes e gera o metodo __init__ combinando todos os atributos esperados
+    (numero_patas, cor_pelo, cor_bico). Isso resolve a opacidade de assinaturas
+    gerada por **kwargs, garantindo autocompletar e validacao estatica no IDE.
+    """
+
+    pass
 
 
 g1 = Gato(numero_patas=4, cor_pelo="marrom")
 print(g1)
 
-# Ao recorrer ao intellisense (documentacao  do objeto), ficou ilegivel  quais são os argumentos esperados
-o1 = Ornitorrinco(numero_patas=4, cor_pelo="vermelho", cor_bico="marro")
+# Instanciacao com autocompletar 100% funcional no IDE
+o1 = Ornitorrinco(numero_patas=4, cor_pelo="vermelho", cor_bico="marrom")
 print(o1)
