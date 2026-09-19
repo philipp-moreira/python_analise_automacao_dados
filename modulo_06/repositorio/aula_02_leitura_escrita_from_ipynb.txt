@@ -1,0 +1,2 @@
+Escrevendo um linha em 'aula_02_leitura_escrita_from_ipynb.txt'
+Adicionando novo conteudo ao arquivo 'aula_02_leitura_escrita_from_ipynb.txt'

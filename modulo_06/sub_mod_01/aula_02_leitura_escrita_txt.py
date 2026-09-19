@@ -67,7 +67,7 @@ def lendo_linha_a_linha_conteudo_arquivo_txt(caminho_origem, arquivos):
     print("Terminado processamento | lendo_linha_a_linha_conteudo_arquivo_txt()")
 
 
-caminho_origem = "/home/philipp/src/python/dio/bootcamp/accenture_analise_automacao_dados/modulo_06/repositorio"
+caminho_origem = "../repositorio"
 arquivos = ["aula_02_leitura_escrita.txt"]
 
 escrevendo_arquivo_txt(caminho_origem, arquivos)
