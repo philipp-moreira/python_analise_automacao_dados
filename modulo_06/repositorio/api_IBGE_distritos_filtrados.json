@@ -1,0 +1,310 @@
+[
+    {
+        "id": 431890314,
+        "nome": "Capela São Paulo",
+        "municipio": {
+            "id": 4318903,
+            "nome": "São Luiz Gonzaga",
+            "microrregiao": {
+                "id": 43007,
+                "nome": "Santo Ângelo",
+                "mesorregiao": {
+                    "id": 4301,
+                    "nome": "Noroeste Rio-grandense",
+                    "UF": {
+                        "id": 43,
+                        "sigla": "RS",
+                        "nome": "Rio Grande do Sul",
+                        "regiao": {
+                            "id": 4,
+                            "sigla": "S",
+                            "nome": "Sul"
+                        }
+                    }
+                }
+            },
+            "regiao-imediata": {
+                "id": 430022,
+                "nome": "São Luiz Gonzaga",
+                "regiao-intermediaria": {
+                    "id": 4305,
+                    "nome": "Ijuí",
+                    "UF": {
+                        "id": 43,
+                        "sigla": "RS",
+                        "nome": "Rio Grande do Sul",
+                        "regiao": {
+                            "id": 4,
+                            "sigla": "S",
+                            "nome": "Sul"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 355250215,
+        "nome": "Palmeiras de São Paulo",
+        "municipio": {
+            "id": 3552502,
+            "nome": "Suzano",
+            "microrregiao": {
+                "id": 35062,
+                "nome": "Mogi das Cruzes",
+                "mesorregiao": {
+                    "id": 3515,
+                    "nome": "Metropolitana de São Paulo",
+                    "UF": {
+                        "id": 35,
+                        "sigla": "SP",
+                        "nome": "São Paulo",
+                        "regiao": {
+                            "id": 3,
+                            "sigla": "SE",
+                            "nome": "Sudeste"
+                        }
+                    }
+                }
+            },
+            "regiao-imediata": {
+                "id": 350001,
+                "nome": "São Paulo",
+                "regiao-intermediaria": {
+                    "id": 3501,
+                    "nome": "São Paulo",
+                    "UF": {
+                        "id": 35,
+                        "sigla": "SP",
+                        "nome": "São Paulo",
+                        "regiao": {
+                            "id": 3,
+                            "sigla": "SE",
+                            "nome": "Sudeste"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 431930705,
+        "nome": "São Paulo das Missões",
+        "municipio": {
+            "id": 4319307,
+            "nome": "São Paulo das Missões",
+            "microrregiao": {
+                "id": 43006,
+                "nome": "Cerro Largo",
+                "mesorregiao": {
+                    "id": 4301,
+                    "nome": "Noroeste Rio-grandense",
+                    "UF": {
+                        "id": 43,
+                        "sigla": "RS",
+                        "nome": "Rio Grande do Sul",
+                        "regiao": {
+                            "id": 4,
+                            "sigla": "S",
+                            "nome": "Sul"
+                        }
+                    }
+                }
+            },
+            "regiao-imediata": {
+                "id": 430024,
+                "nome": "Cerro Largo",
+                "regiao-intermediaria": {
+                    "id": 4305,
+                    "nome": "Ijuí",
+                    "UF": {
+                        "id": 43,
+                        "sigla": "RS",
+                        "nome": "Rio Grande do Sul",
+                        "regiao": {
+                            "id": 4,
+                            "sigla": "S",
+                            "nome": "Sul"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 430900126,
+        "nome": "São Paulo das Tunas",
+        "municipio": {
+            "id": 4309001,
+            "nome": "Giruá",
+            "microrregiao": {
+                "id": 43007,
+                "nome": "Santo Ângelo",
+                "mesorregiao": {
+                    "id": 4301,
+                    "nome": "Noroeste Rio-grandense",
+                    "UF": {
+                        "id": 43,
+                        "sigla": "RS",
+                        "nome": "Rio Grande do Sul",
+                        "regiao": {
+                            "id": 4,
+                            "sigla": "S",
+                            "nome": "Sul"
+                        }
+                    }
+                }
+            },
+            "regiao-imediata": {
+                "id": 430020,
+                "nome": "Santo Ângelo",
+                "regiao-intermediaria": {
+                    "id": 4305,
+                    "nome": "Ijuí",
+                    "UF": {
+                        "id": 43,
+                        "sigla": "RS",
+                        "nome": "Rio Grande do Sul",
+                        "regiao": {
+                            "id": 4,
+                            "sigla": "S",
+                            "nome": "Sul"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 130390805,
+        "nome": "São Paulo de Olivença",
+        "municipio": {
+            "id": 1303908,
+            "nome": "São Paulo de Olivença",
+            "microrregiao": {
+                "id": 13003,
+                "nome": "Alto Solimões",
+                "mesorregiao": {
+                    "id": 1302,
+                    "nome": "Sudoeste Amazonense",
+                    "UF": {
+                        "id": 13,
+                        "sigla": "AM",
+                        "nome": "Amazonas",
+                        "regiao": {
+                            "id": 1,
+                            "sigla": "N",
+                            "nome": "Norte"
+                        }
+                    }
+                }
+            },
+            "regiao-imediata": {
+                "id": 130006,
+                "nome": "Tabatinga",
+                "regiao-intermediaria": {
+                    "id": 1302,
+                    "nome": "Tefé",
+                    "UF": {
+                        "id": 13,
+                        "sigla": "AM",
+                        "nome": "Amazonas",
+                        "regiao": {
+                            "id": 1,
+                            "sigla": "N",
+                            "nome": "Norte"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 241260905,
+        "nome": "São Paulo do Potengi",
+        "municipio": {
+            "id": 2412609,
+            "nome": "São Paulo do Potengi",
+            "microrregiao": {
+                "id": 24015,
+                "nome": "Agreste Potiguar",
+                "mesorregiao": {
+                    "id": 2403,
+                    "nome": "Agreste Potiguar",
+                    "UF": {
+                        "id": 24,
+                        "sigla": "RN",
+                        "nome": "Rio Grande do Norte",
+                        "regiao": {
+                            "id": 2,
+                            "sigla": "NE",
+                            "nome": "Nordeste"
+                        }
+                    }
+                }
+            },
+            "regiao-imediata": {
+                "id": 240006,
+                "nome": "São Paulo do Potengi",
+                "regiao-intermediaria": {
+                    "id": 2401,
+                    "nome": "Natal",
+                    "UF": {
+                        "id": 24,
+                        "sigla": "RN",
+                        "nome": "Rio Grande do Norte",
+                        "regiao": {
+                            "id": 2,
+                            "sigla": "NE",
+                            "nome": "Nordeste"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 431043920,
+        "nome": "Vila São Paulo",
+        "municipio": {
+            "id": 4310439,
+            "nome": "Ipê",
+            "microrregiao": {
+                "id": 43015,
+                "nome": "Vacaria",
+                "mesorregiao": {
+                    "id": 4302,
+                    "nome": "Nordeste Rio-grandense",
+                    "UF": {
+                        "id": 43,
+                        "sigla": "RS",
+                        "nome": "Rio Grande do Sul",
+                        "regiao": {
+                            "id": 4,
+                            "sigla": "S",
+                            "nome": "Sul"
+                        }
+                    }
+                }
+            },
+            "regiao-imediata": {
+                "id": 430036,
+                "nome": "Caxias do Sul",
+                "regiao-intermediaria": {
+                    "id": 4307,
+                    "nome": "Caxias do Sul",
+                    "UF": {
+                        "id": 43,
+                        "sigla": "RS",
+                        "nome": "Rio Grande do Sul",
+                        "regiao": {
+                            "id": 4,
+                            "sigla": "S",
+                            "nome": "Sul"
+                        }
+                    }
+                }
+            }
+        }
+    }
+]
